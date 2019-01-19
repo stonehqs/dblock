@@ -7,3 +7,5 @@ Functions:
 2. pessimistic lock
 3. optimistic retry function based on annotation and aop
 4. test case.
+
+博客地址：https://www.cnblogs.com/huangqingshi/p/10259913.html
