@@ -25,7 +25,7 @@ public class RetryAspect {
         do {
             attempts++;
             try {
-                pjp.proceed();
+                return pjp.proceed();
             } catch (Exception e) {
                 if(e instanceof ObjectOptimisticLockingFailureException ||
                         e instanceof StaleObjectStateException) {
